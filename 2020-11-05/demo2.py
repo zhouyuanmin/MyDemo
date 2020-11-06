@@ -10,6 +10,7 @@ with open('d4nr.txt', 'a') as f:
         res = requests.get(url.format(d))
         if '210' in res.text:
             f.write(f'{d}\n')
+            f.flush()
         elif '200' not in res.text:
             with open('error.txt', 'a') as f1:
                 f1.write(f'NO {d}')
