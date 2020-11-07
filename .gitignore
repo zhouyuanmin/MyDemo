@@ -6,7 +6,9 @@ __pycache__/
 .DS_Store
 # C extensions
 *.so
-
+2020-11-05/d4.txt
+2020-11-05/d4nr.txt
+2020-11-05/d5.txt
 # Distribution / packaging
 .Python
 build/
