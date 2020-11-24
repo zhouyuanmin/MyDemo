@@ -7,6 +7,8 @@ app = Sanic("websocket_example")
 
 @app.websocket('/feed')
 async def feed(request, ws):
+    data = await ws.recv()
+    print('Received: ' + data)
     while True:
         data = 'hello!'
         print('Sending: ' + data)
