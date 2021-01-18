@@ -1,6 +1,6 @@
 """
-需要安装sdk库
-pip install ronglian-sms-sdk
+使用容联云通讯平台来实现发短信功能
+需要安装sdk库: pip install ronglian-sms-sdk
 """
 from ronglian_sms_sdk import SmsSDK
 
