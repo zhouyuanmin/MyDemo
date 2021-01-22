@@ -1,4 +1,5 @@
 Django==1.11.11
 QQLoginTool==0.3.0
 requests==2.20.0
+itsdangerous==1.1.0
 python-alipay-sdk
