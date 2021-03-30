@@ -4,7 +4,7 @@ import json
 
 # 配置 start_time
 tables = ['VIEW_HOME_PAGE', 'CLICK_COURSE', 'REGISTER_NOW', 'CLICK_PAY', 'PAY_SUCCESS', 'SECOND_PAY']
-start_time = '2021-01-01 11:26:53'
+start_time = '2020-01-01 11:26:53'
 
 # sql语句
 sql_0 = """SELECT
@@ -50,7 +50,7 @@ class MysqlDemo(object):
         self.db = pymysql.connect(
             host="cd-cdb-nz5meleu.sql.tencentcdb.com",
             user="root",
-            passwd="zsyl@2018db",
+            passwd="******",
             database="pt_hadoop",
             port=62234
         )
