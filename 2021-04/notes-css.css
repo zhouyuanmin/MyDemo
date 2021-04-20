@@ -535,7 +535,7 @@ ol li:nth-child(-2n+5) { /* 从0开始 每次加1 往后面计算  可以加减�
     background-color: skyblue;
 }
 
-/*29.4 选择器nth-type-of*/
+/*29.4 选择器nth-of-type*/
 ul li:first-of-type {
     background-color: pink;
 }
